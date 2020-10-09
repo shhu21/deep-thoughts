@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Footer
 const Footer = () => {
   return (
     <footer className="w-100 mt-auto bg-secondary p-4">

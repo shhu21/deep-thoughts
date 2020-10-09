@@ -36,10 +36,10 @@ const ReactionForm = ({ thoughtId }) => {
             </p>
             <form className="flex-row justify-center justify-space-between-md align-stretch" onSubmit={handleFormSubmit}>
                 <textarea
-                placeholder="Leave a reaction to this thought..."
-                className="form-input col-12 col-md-9"
-                text={reactionBody}
-                onChange={handleChange}
+                    placeholder="Leave a reaction to this thought..."
+                    className="form-input col-12 col-md-9"
+                    text={reactionBody}
+                    onChange={handleChange}
                 ></textarea>
 
                 <button className="btn col-12 col-md-3" type="submit">
