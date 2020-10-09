@@ -1,6 +1,6 @@
 import React from 'react';
 import { Redirect, useParams } from 'react-router-dom';
-import ThoughtList from '../components/ThoughtList.js';
+import ThoughtList from '../components/ThoughtList/index.js';
 import { QUERY_USER, QUERY_ME } from '../utils/queries';
 import FriendList from '../components/FriendList';
 import Auth from '../utils/auth';
